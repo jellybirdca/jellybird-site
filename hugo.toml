@@ -1,11 +1,23 @@
 baseURL = "https://cmcconomy.github.io/jellybird-site/"
 languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "Jellybird"
 theme = "blowfish"
 paginate = 10
+
+enableRobotsTXT = true
+summaryLength = 30
 
 [params]
   description = "Homepage for Jellybird Art"
   
   [params.author]
     name = "Sara Wong"
+
+[taxonomies]
+  tag = "art"
+  category = "art"
+  author = "Sara Wong"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
