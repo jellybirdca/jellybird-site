@@ -1,0 +1,15 @@
+languageCode = "en-us"
+languageName = "English"
+weight = 1
+
+title = "Jellybird"
+
+[params]
+description = "Homepage for Jellybird Art"
+
+[params.author]
+name = "Sara Wong"
+image = "img/author.jpg"
+headline = "Jellybird / Sara Wong"
+bio = "I'm a little tea pot"
+# links = [{ twitter = "https://twitter.com/username" }]
