@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <title>{{ .Site.Title }}</title>
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">{{ .Site.Title }}</h1>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Welcome to {{ .Site.Title }}</h2>
+        <p>A beautiful, simple landing page built with Hugo</p>
+        <a href="#features" class="cta-button">Explore</a>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <h2>Features</h2>
+        <div class="feature-grid">
+          <div class="feature-card">
+            <img src="{{ "images/feature-1.svg" | relURL }}" alt="Fast">
+            <h3>Fast & Lightweight</h3>
+            <p>Static HTML pages load instantly with no database overhead.</p>
+          </div>
+          <div class="feature-card">
+            <img src="{{ "images/feature-2.svg" | relURL }}" alt="Secure">
+            <h3>Secure</h3>
+            <p>No server vulnerabilities or dependencies to worry about.</p>
+          </div>
+          <div class="feature-card">
+            <img src="{{ "images/feature-3.svg" | relURL }}" alt="Simple">
+            <h3>Simple</h3>
+            <p>Easy to maintain and deploy directly to GitHub Pages.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+          <img src="{{ "images/gallery-1.svg" | relURL }}" alt="Gallery image 1">
+          <img src="{{ "images/gallery-2.svg" | relURL }}" alt="Gallery image 2">
+          <img src="{{ "images/gallery-3.svg" | relURL }}" alt="Gallery image 3">
+          <img src="{{ "images/gallery-4.svg" | relURL }}" alt="Gallery image 4">
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to Get Started?</h2>
+        <p>Deploy your own static site with Hugo and GitHub Pages.</p>
+        <a href="#" class="cta-button">Learn More</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; {{ now.Format "2006" }} {{ .Site.Params.author }}. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

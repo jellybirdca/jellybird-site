@@ -1,0 +1,6 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" fill="#f3f4f6"/>
+  <path d="M 100 50 L 130 80 L 100 100 L 70 80 Z" fill="#6366f1"/>
+  <rect x="70" y="110" width="60" height="50" rx="5" fill="none" stroke="#6366f1" stroke-width="2"/>
+  <text x="100" y="170" text-anchor="middle" font-family="Arial" font-size="14" fill="#6b7280">Secure</text>
+</svg>

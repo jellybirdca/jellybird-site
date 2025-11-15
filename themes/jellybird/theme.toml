@@ -1,0 +1,12 @@
+name = "Jellybird"
+license = "MIT"
+licenselink = "https://github.com/yourusername/jellybird-site/blob/main/LICENSE"
+description = "A clean, minimal landing page theme for Hugo"
+homepage = "https://github.com/yourusername/jellybird-site"
+tags = ["landing", "minimal", "responsive"]
+features = ["responsive", "clean"]
+min_version = "0.87.0"
+
+[author]
+  name = "Your Name"
+  homepage = "https://yourwebsite.com"
