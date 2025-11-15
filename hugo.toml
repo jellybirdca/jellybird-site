@@ -3,7 +3,9 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 title = "Jellybird"
 theme = "blowfish"
-paginate = 10
+
+[pagination]
+pagerSize = 10
 
 enableRobotsTXT = true
 summaryLength = 30
