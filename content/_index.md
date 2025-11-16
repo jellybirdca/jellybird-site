@@ -13,6 +13,7 @@ description: Contemporary digital and visual art by Sara Wong
 
 Jellybird is the creative identity of Toronto artist and educator Sara Wong. Working across visual arts, music, sewing, and small experimental projects, she explores creativity as a space of play, curiosity, and gentle discovery. Jellybird represents the part of her that creates without pressure or expectation — the part that wanders, tries things, and follows what feels quietly meaningful. Her work invites others into the same spirit of openness and wonder in everyday life.
 
+---
 
 # Featured Work
 

@@ -10,6 +10,5 @@ description = "Homepage for Jellybird Art"
 [params.author]
 name = "jellybird"
 image = "img/author.jpg"
-headline = "i do be printing"
 bio = "I'm a little tea pot"
 # links = [{ twitter = "https://twitter.com/username" }]
