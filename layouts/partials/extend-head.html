@@ -1,0 +1,32 @@
+{{- /*
+  Site-level partial to extend the <head> from the Blowfish theme.
+  Supports fonts.title and fonts.body configured in site params.
+  Reads from merged config (hugo.toml + config/_default/hugo.toml).
+*/ -}}
+
+{{ $params := site.Params }}
+{{ $fonts := index $params "fonts" | default dict }}
+{{ $titleFont := index $fonts "title" | default "" }}
+{{ $bodyFont := index $fonts "body" | default "" }}
+
+{{ if ne $titleFont "" }}
+  <link href="https://fonts.googleapis.com/css2?family={{ urlquery $titleFont }}&display=swap" rel="stylesheet">
+{{ end }}
+{{ if ne $bodyFont "" }}
+  <link href="https://fonts.googleapis.com/css2?family={{ urlquery $bodyFont }}&display=swap" rel="stylesheet">
+{{ end }}
+{{ if or (ne $titleFont "") (ne $bodyFont "") }}
+  <style>
+    {{ if ne $titleFont "" }}
+      h1, h2, h3, h4, h5, h6,
+      .site-title, .post-title, .page-title, .title {
+        font-family: '{{ $titleFont }}', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+    {{ end }}
+    {{ if ne $bodyFont "" }}
+      body, p {
+        font-family: '{{ $bodyFont }}', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+    {{ end }}
+  </style>
+{{ end }}

@@ -1,17 +1,29 @@
 baseURL = "https://jellybird.ca"
-theme = "blowfish"
+languageCode = "en-us"
 defaultContentLanguage = "en"
+title = "Jellybird"
+theme = "blowfish"
+
+[pagination]
+pagerSize = 10
 
 enableRobotsTXT = true
 summaryLength = 30
 
-[pagination]
-  pagerSize = 10
+[params]
+  description = "Homepage for Jellybird Art"
+  
+  [params.author]
+    name = "Sara Wong"
+
+  [params.fonts]
+    title = "Hubballi"
+    body = "Barlow Semi Condensed"
 
 [taxonomies]
-  tag = "tags"
-  category = "categories"
-  author = "authors"
+  tag = "art"
+  category = "art"
+  author = "Sara Wong"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
