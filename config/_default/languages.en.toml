@@ -2,14 +2,14 @@ languageCode = "en-us"
 languageName = "English"
 weight = 1
 
-title = "Jellybird"
+title = "jellybird"
 
 [params]
 description = "Homepage for Jellybird Art"
 
 [params.author]
-name = "Sara Wong"
+name = "jellybird"
 image = "img/author.jpg"
-headline = "Jellybird / Sara Wong"
+headline = "i do be printing"
 bio = "I'm a little tea pot"
 # links = [{ twitter = "https://twitter.com/username" }]
