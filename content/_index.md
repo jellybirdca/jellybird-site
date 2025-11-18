@@ -19,7 +19,7 @@ Jellybird is the creative identity of Toronto artist and educator Sara Wong. Wor
 
 ## Alleyway Promenade - Botanical treasures from the city’s hidden paths
 
-“Alleyway Promenade” grew out of Sara’s walks through the city’s back lanes and sidewalks, where she gathers fallen leaves and petals and notices small plants growing stubbornly through cracks in the concrete. Occasionally, a neighbour or friend contributes spent flowers from old bouquets or clippings from their gardens, adding a quiet thread of community to her process. Through eco-printing, she transforms these found botanicals using heat, pressure, and time, drawing out pigments and delicate impressions onto paper. Each piece is framed in thrifted or second-hand frames, reflecting her commitment to working with what she discovers along the way.
+“Alleyway Promenade” grew out of Sara’s walks through the city’s back lanes and sidewalks, where she gathers fallen leaves and petals and notices small plants growing stubbornly through cracks in the concrete. Occasionally, a neighbour or friend contributes spent flowers from old bouquets or clippings from their gardens, adding a quiet thread of community to her process. She transforms these found botanicals using heat, pressure, and time, to draw out pigments and delicate impressions onto paper. Each piece is framed in thrifted or second-hand frames, reflecting her commitment to working with what she discovers along the way.
 
 This exhibition celebrates the subtle beauty found in overlooked spaces: the soft colours drawn from fallen petals, the delicate forms pressed from leaves, and the traces of time held within each impression.
 
