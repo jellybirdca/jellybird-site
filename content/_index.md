@@ -46,7 +46,7 @@ LOCATION: [SHOW GALLERY](https://maps.app.goo.gl/6bsMt5CqQpkWR41Q7). 978 Queen S
 | Thu Jun. 25  |  3:00 pm - 8:00 pm | 
 | Fri Jun. 26  |  3:00 pm - 8:00 pm |
 | Sat Jun. 27* | 11:00 am - 9:00 pm |
-| Sun Jun. 28  | 11:00 am - 5:00 pm |
+| Sun Jun. 28  |  1:00 pm - 5:00 pm |
 
 * There will be a Closing Reception on Saturday June 27th, from 6:00pm - 9:00pm. Come and join us for snacks and schmoozing! 
 
